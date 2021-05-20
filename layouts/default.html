@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <title>{{get title}}</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="p-3 bg-body">
+            {{get header}}
+        </header>
+        <main>
+            {{get content}}
+            <a class="online-reg" href="#">Онлайн-запис</a>
+            <div class="loader-layout">
+                <div class="loading-window">
+                    <div class="car">
+                        <div class="strike"></div>
+                        <div class="strike strike2"></div>
+                        <div class="strike strike3"></div>
+                        <div class="strike strike4"></div>
+                        <div class="strike strike5"></div>
+                        <div class="car-detail spoiler"></div>
+                        <div class="car-detail back"></div>
+                        <div class="car-detail center"></div>
+                        <div class="car-detail center1"></div>
+                        <div class="car-detail front"></div>
+                        <div class="car-detail wheel"></div>
+                        <div class="car-detail wheel wheel2"></div>
+                    </div>
+                    <div class="text">
+                        <span>Завантаження</span><span class="dots">...</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>{{get footer}}</footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="../public/js/script.js"></script>
+</body>
+
+</html>
